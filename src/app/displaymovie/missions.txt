@@ -1,0 +1,3 @@
+1) Fix responsive, Limit shrink width.
+2) Play Button, Plays Trailer, Dark Background, Youtube Trailer.
+3) Faster transaction time.

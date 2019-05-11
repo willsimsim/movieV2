@@ -1,0 +1,62 @@
+/* Cards */
+.list {
+	display: flex;
+	width: 100%;
+	margin-bottom: 3.90625vw;
+  padding: 0 4.88281vw;
+  margin-top: 2%;
+  margin-bottom: 7%;
+  float:left;
+}
+
+.list__item {
+	transition: all .3s ease;
+	perspective: 1000px;
+	transform-style: preserve-3d;
+  border-radius: 8px;
+}
+
+.list__item img {
+	width: 18.5vw;
+	height: 27.3vw;
+  margin-right: 3.5vw;
+  margin-top: 2vw;
+	perspective: 1000px;
+	transform-style: preserve-3d;
+  border-radius: 8px;
+}
+
+.list__item:hover {
+  transform: scale(1.1) translateY(-5px);
+  -webkit-filter: brightness(27%);
+}
+
+/* Overlay Text */
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-weight: bold;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  margin-left: -5%;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+   -khtml-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+h3 {
+  white-space: nowrap;
+  margin-bottom: 10%;
+  margin-top: 30%;
+  font-size: 1.3vw;
+  text-align: center;
+}
+
+p {
+  font-size: 1.0vw;
+}
